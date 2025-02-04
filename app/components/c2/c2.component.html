@@ -1,0 +1,19 @@
+<ion-card>
+  <img alt="Silhouette of mountains" src="./assets/img/Space2.jpg" style="width: max-content;" />
+  <ion-card-header>
+    <ion-card-title>The Answer is</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content style="height: 100px;">
+    <div *ngIf="hideLoadingDots">
+      <!-- ionicframework.com for more, it's pretty cool -->
+      <ion-spinner name="dots"></ion-spinner>
+      <ion-spinner name="dots"></ion-spinner>
+      <ion-spinner name="dots"></ion-spinner>
+      <ion-spinner name="dots"></ion-spinner>
+      <ion-spinner name="dots"></ion-spinner>
+    </div>
+
+    <ion-label style="text-align: justify;">{{questionAnswer}}</ion-label>
+  </ion-card-content>
+</ion-card>

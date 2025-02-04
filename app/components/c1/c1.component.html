@@ -1,0 +1,17 @@
+<ion-card>
+  <img alt="Silhouette of mountains" src="./assets/img/Space.jpg" style="width: max-content;" />
+  <ion-card-header>
+    <ion-card-title>What would you like to know?</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content style="height: 100px;">
+    <!-- store the id of the question as a hidden attribute -->
+    <ion-item>
+      <ion-select label="Select a Question ..." label-placement="floating"
+        (ionChange)="sendQuestionId($event.target.value)">
+        <ion-select-option *ngFor="let data of astroData" [value]="data.id">{{data.question}}</ion-select-option>
+      </ion-select>
+    </ion-item> <br>
+    <!-- <div style="text-align: justify;">{{answer.msg}}</div> -->
+  </ion-card-content>
+</ion-card>

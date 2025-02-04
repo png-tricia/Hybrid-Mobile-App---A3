@@ -1,0 +1,27 @@
+[
+  {
+    "id": "001",
+    "question": "What is Space Junk?",
+    "answer": "Space Junk is any human-made object orbiting Earth that no longer serves a useful purpose. Scientists estimate there are about 500,000 pieces of space junk today, including fragments from rockets and satellites, and everyday items like spanners dropped during construction of the International Space Station!"
+  },
+  {
+    "id": "002",
+    "question": "What is a Planet?",
+    "answer": "A planet is a celestial body that (a) is in orbit around the Sun, (b) has sufficient mass for its self-gravity to overcome rigid body forces so that it assumes a hydrostatic equilibrium (nearly round) shape, and (c) has cleared the neighborhood around its orbit."
+  },
+  {
+    "id": "003",
+    "question": "How many Planets are in our Solar System?",
+    "answer": "The solar system has eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. There are five officially recognized dwarf planets in our solar system: Ceres, Pluto, Haumea, Makemake, and Eris."
+  },
+  {
+    "id": "004",
+    "question": "What is a Galaxy?",
+    "answer": "A galaxy is a huge collection of gas, dust, and billions of stars and their solar systems, all held together by gravity."
+  },
+  {
+    "id": "005",
+    "question": "Who was the first human to enter Space?",
+    "answer": "Yuri Gagarin from the Soviet Union was the first human in space. His vehicle, Vostok 1 circled Earth at a speed of 27,400 kilometers per hour with the flight lasting 108 minutes."
+  }
+]
